@@ -1,0 +1,144 @@
+header{
+    color: white;
+    background-color: #8fb900;
+}
+@media all and (max-width: 380px) {
+    header .container{
+        flex-direction: column;
+    }
+}
+section{
+    max-width: 1160px;
+    margin: 80px auto 0 auto;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+.main-image div{
+    background-color: rgba(185, 0, 50,0.4);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 0px;
+position: absolute;
+bottom: 7px;
+left: 0;
+width: 100%;
+}
+.main-image img{
+    width: 100%;
+}
+.main-image{
+    position: relative;
+    margin-top: 80px;}
+@media all and (max-width: 500px) {
+        .main-image div{
+            position: static;
+            height: auto;
+        }
+    }    
+.main-image p{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-left: 0 17px;
+}    
+.btn-red{
+    border: none;
+    background-color: #b90032;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    width: 260px;
+    text-align: center;
+  
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px;
+    border: 1px solid white;
+    font-weight: bold;
+    display: block;
+}
+header a:hover{
+    color: #8fb900;
+    background-color: white;
+}
+header h1{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 18px;
+    color: #b90032;
+}
+.container{
+    max-width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    margin: auto;
+}
+div.item{
+    width: 280px;
+    border: 1px solid #b90032;
+    margin-top: 25px;
+}
+
+.item-description{
+    padding: 10px;
+
+}
+.container-items{
+flex-wrap: wrap;    
+display: flex;
+justify-content: space-around;
+}
+.business{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-between;}
+.business img{
+    width: 570px;
+}
+
+.business img{
+width: 100%;
+ }   
+
+.texte{
+    width: 570px; 
+}
+footer{
+    color: white;
+    background-color: #8fb900;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 80px;  
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+footer p{
+    font-weight: bold;
+    font-size: 22px;
+    margin-right: 600px;
+}
+
+@media all and (max-width: 540px) {
+    footer .container{
+        flex-direction: column;
+    }
+} 
